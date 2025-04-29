@@ -60,7 +60,7 @@ sed -i \
 
 # 4. User inputs
 read -rp "Enter Current Registry address (see here https://tinyurl.com/3nk27sy4): " REG_ADDR
-read -rp "Enter Your wallet Private Key (must start with 0x): " PRIV_KEY
+read -rp "Enter Your wallet Private Key (must start with 0x and Please keep 20 USD ETH in your wallet.): " PRIV_KEY
 read -rp "Enter current node version (see here https://tinyurl.com/m2vfwznd ) : " NODE_VER
 
 # Apply registry address
