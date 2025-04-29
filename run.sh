@@ -59,9 +59,9 @@ sed -i \
   "$CONFIG_DEPLOY"
 
 # 4. User inputs
-read -rp "Enter Current Registry address (hex, e.g. 0xABC...): " REG_ADDR
+read -rp "Enter Current Registry address (see here https://tinyurl.com/3nk27sy4): " REG_ADDR
 read -rp "Enter Your wallet Private Key (must start with 0x): " PRIV_KEY
-read -rp "Enter current node version (e.g. 1.3.1): " NODE_VER
+read -rp "Enter current node version (see here https://tinyurl.com/m2vfwznd ) : " NODE_VER
 
 # Apply registry address
 sed -i "s/0x663F3ad617193148711d28f5334eE4Ed07016602/$REG_ADDR/g" \
