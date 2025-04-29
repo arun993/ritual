@@ -99,5 +99,5 @@ if [[ "$REBOOT_ANS" =~ ^[Yy]$ ]]; then
   log_info "Rebooting..."
   $SUDO reboot
 else
-  log_info "Please reboot manually to finalize setup."
+  log_info "Please reboot manually to finalize setup with command sudo reboot."
 fi
